@@ -21,17 +21,18 @@ EmailApp is a powerful and versatile email bot application designed to automate 
 ```bash
 git clone https://github.com/DipPodder/Email-Bot-.git
 cd Email-Bot-
-
-Install Dependencies
+```
+### Install Dependencies
 For a Node.js project:
 ```bash
 npm install
+```
 
 For a Python project:
 ```bash
 pip install -r requirements.txt
-
-Configuration
+```
+### Configuration
 Create a configuration file config.yaml (or config.json) in the project root directory.
 Add your email provider credentials and other necessary settings.
 Example config.yaml:
@@ -43,26 +44,27 @@ email_provider:
 
 settings:
   send_interval: 10 # in minutes
-
-Usage
+```
+### Usage
 Running the Application
 For a Node.js project:
 ```bash
 npm start
+```
 For a Python project:
 ```bash
 python app.py
-
+```
 ##Example Commands
 To send a test email:
 ```bash
 npm run send-test-email
-
+```
 or
 
 ```bash
 python send_test_email.py
-
+```
 ## Contributing
 We welcome contributions to enhance the EmailApp. Please follow these steps:
 
@@ -73,6 +75,9 @@ We welcome contributions to enhance the EmailApp. Please follow these steps:
 5.Open a Pull Request
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 
 
 
